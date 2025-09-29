@@ -1,4 +1,4 @@
-# ProjDF
+# QDF
 official implementation for "Quadratic Direct Forecast for Training Multi-Step Time-Series Forecast Models".
 
 # Install
