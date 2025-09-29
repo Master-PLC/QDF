@@ -199,6 +199,7 @@ analyze/*
 
 scripts/*
 !scripts/valid*
+!TQNet.sh
 
 /stats*
 
@@ -206,3 +207,5 @@ dataset/*
 !dataset/ETT-small/
 
 /figure*
+
+/.ossutil_checkpoint
