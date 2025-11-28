@@ -2,7 +2,7 @@
 
 Official implementation for "Quadratic Direct Forecast for Training Multi-Step Time-Series Forecast Models"
 
-## How to reproduce the results with the used hyper parameters?
+## Reproduction
 
 You can reproduce the results by running the provided shell scripts:
 
@@ -21,7 +21,7 @@ bash ./scripts/run_all.sh
 ```
 All the hyper parameters used in the paper are included in these scripts.
 
-## Where are the key code components?
+## Components
 
 The major components of QDF—including meta-train, meta-test, and inner loop algorithms—are implemented in [`exp/exp_long_term_forecasting_meta_ml3.py`](./exp/exp_long_term_forecasting_meta_ml3.py).
 
@@ -38,7 +38,7 @@ Each meta-task iteratively updates model parameters using the learned loss funct
 The core mathematical novelty (covariance loss, etc) is implemented in the `CovarianceMatrix` class.
 
 
-## What is the required software environment for reproducing?
+## Environment
 
 All required dependencies are listed in `requirements.txt`.  
 To set up the environment, run:
@@ -52,6 +52,6 @@ conda install pytorch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 pytorch-cuda=
 pip install -r requirements.txt
 ```
 
-## Whether the code is built upon established repos?
+## Acknowledgements
 
-We acknowledge that this code is built upon FreDF.
+The implementaiton of this project is built upon some established repos, such as FreDF and Time-o1.
