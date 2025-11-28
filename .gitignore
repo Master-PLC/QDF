@@ -197,9 +197,6 @@ analyze/*
 
 /projections
 
-scripts/*
-!scripts/valid*
-!TQNet.sh
 
 /stats*
 
